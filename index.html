@@ -2,35 +2,35 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
-    <title>Outer Banks</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="outer banks iconn.jpeg" alt="ícone" class="icone-arredondado" type="image/png" > 
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define as configurações de viewport para dispositivos móveis -->
+    <title>Outer Banks</title> <!-- Define o título da página -->
+    <link rel="stylesheet" href="style.css"> <!-- Vincula o arquivo CSS para estilizar a página -->
+    <link rel="icon" href="outer banks iconn.jpeg" alt="ícone" class="icone-arredondado" type="image/png"> <!-- Define o ícone da página e seu formato -->
 </head>
 
 <body>
     <header>
-        <h1>Outer Banks</h1>
+        <h1>Outer Banks</h1> <!-- Cabeçalho com o título da página -->
     </header>
     <main>
         <section>
-            <input type="text" class="campo-pesquisa" id="campo-pesquisa" placeholder="Digite o Nome do Personagem">
-            <button onclick="pesquisar()">Pesquisar</button>
+            <!-- Seção contendo o campo de pesquisa e o botão -->
+            <input type="text" class="campo-pesquisa" id="campo-pesquisa" placeholder="Digite o Nome do Personagem"> <!-- Campo de entrada de texto -->
+            <button onclick="pesquisar()">Pesquisar</button> <!-- Botão que aciona a função de pesquisa -->
         </section>
         <section class="indefinido">
-            <p id="Nada foi encontrado"> </p>
+            <p id="Nada foi encontrado"> </p> <!-- Parágrafo para exibir mensagens quando nenhum resultado for encontrado -->
         </section>
         <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!-- Seção para exibir os resultados da pesquisa -->
         </section>
     </main>
     <footer>
-        <p>Todos os direitos reservador a <a href="https://www.netflix.com/br/" target="_blank" class="netflix">Netflix</a>, 2024.</p>
+        <p>Todos os direitos reservados a <a href="https://www.netflix.com/br/" target="_blank" class="netflix">Netflix</a>, 2024.</p> <!-- Rodapé com link para a Netflix -->
     </footer>
+    <script src="dados.js"></script> <!-- Vincula o arquivo JavaScript contendo dados -->
+    <script src="app.js"></script> <!-- Vincula o arquivo JavaScript contendo funcionalidades -->
 </body>
-    <script src="dados.js"></script>
-    <script src="app.js"></script>
-    
 
-    
 </html>

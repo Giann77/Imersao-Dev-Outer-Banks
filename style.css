@@ -14,17 +14,18 @@ body {
     padding: 0; /* Remove o padding padrão */
 }
 
+/* Adiciona um fundo de imagem à página com opacidade */
 body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image:url(outer-banks-fundo.jpg);
-    background-size: cover;
-    opacity: 0.65;
-    z-index: -1;
+    content: ""; /* Adiciona conteúdo vazio */
+    position: absolute; /* Posiciona o elemento de fundo */
+    top: 0; /* Alinha ao topo */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura total da página */
+    height: 100%; /* Altura total da página */
+    background-image:url(outer-banks-fundo.jpg); /* Define a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    opacity: 0.65; /* Define a opacidade da imagem de fundo */
+    z-index: -1; /* Coloca o elemento atrás de outros conteúdos */
 }
 
 /* Estiliza os títulos h1 */
@@ -33,8 +34,7 @@ h1 {
     color: #222831; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    opacity: 1;
-
+    opacity: 1; /* Opacidade total */
 }
 
 /* Estiliza as seções da página */
@@ -82,12 +82,13 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
-    align-items: normal;
+    align-items: normal; /* Alinha os itens normalmente */
 }
 
+/* Estiliza o campo de pesquisa dentro da seção */
 .campo-pesquisa {
-    display: flex;
-    align-items: center;
+    display: flex; /* Usa Flexbox para layout */
+    align-items: center; /* Alinha os itens horizontalmente */
 }
 
 /* Estiliza cada item de resultado */
@@ -132,10 +133,10 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
-    opacity: 0.8;
-
+    opacity: 0.8; /* Opacidade do rodapé */
 }
 
+/* Responsividade para telas menores */
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
@@ -159,7 +160,6 @@ footer {
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
-
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
@@ -188,18 +188,21 @@ footer {
     }
 }
 
+/* Estiliza links com a classe 'link-colorido' dentro dos itens de resultado */
 .item-resultado .link-colorido {
-    color: #f05328;   
+    color: #f05328; /* Cor do texto do link */
 }
 
+/* Estiliza links com a classe 'netflix' */
 .netflix {
-    text-decoration: none;
-    color: red;
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: red; /* Cor do texto do link */
 }
 
+/* Estiliza elementos com a classe 'indefinido' */
 .indefinido {
-    position: absolute;
-    align-items: center;
-    margin-left: 425px;
+    font-size: large; /* Tamanho da fonte */
+    position: absolute; /* Posiciona o elemento */
+    align-items: center; /* Alinha os itens horizontalmente */
+    margin-left: 400px; /* Margem à esquerda */
 }
-
