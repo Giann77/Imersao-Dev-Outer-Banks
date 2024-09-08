@@ -5,7 +5,7 @@ let dados = [
         nascimento : "4 de junho, 2003",
         link : "https://outer-banks-netflix.fandom.com/wiki/Sarah_Cameron",     
         ator : "Madelyn Cline",
-        tags : "carismática, rebelde, aventureira,",
+        tags : "carismática, rebelde, aventureira, sarinha, camarão, camarao,",
     },
     {
         titulo: "John B. Routledge",
@@ -51,8 +51,8 @@ let dados = [
         titulo : "Bob Marley",
         descricao : "Bob é o gato de Kiara, conhecido por sua personalidade distinta e carinhosa. Embora não seja um personagem central, ele é uma presença adorável na vida de Kiara.",
         nascimento: "não especificado",
-        link: "não aplicável",
-        ator : "não aplicável",
+        link: "não é famoso o suficiente",
+        ator : "Primo do Garfiel",
         tags : "gato, carinhoso, adorável",
     },
     {
