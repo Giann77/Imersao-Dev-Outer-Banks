@@ -57,14 +57,5 @@ function pesquisar() {
     section.innerHTML = resultados;
 }
 
-// Função para tratar eventos de tecla
-function tratarEventoTecla(event) {
-    if (event.key === "Enter") { // Verifica se a tecla pressionada é Enter
-        pesquisar(); // Chama a função de pesquisa
-    }
-}
-
 // Adiciona ouvintes de eventos
-document.getElementById("campo-pesquisa").addEventListener("change", pesquisar); // Adiciona evento para quando o campo mudar
 document.getElementById("campo-pesquisa").addEventListener("input", pesquisar); // Adiciona evento para quando o valor do campo for alterado
-document.getElementById("campo-pesquisa").addEventListener("keydown", tratarEventoTecla); // Adiciona evento para detectar pressionamento de teclas
